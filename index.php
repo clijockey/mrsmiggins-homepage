@@ -67,7 +67,7 @@
         <div class="testimonials">
 	      <h3>Container Location</h3>
 		  <p><img style="float: center; padding-left: 1em;"src="images/CiscoCloud.png" />
-          <b>Cloud:</b> <?=$cloud?></br>
+          </br></br><b>Cloud:</b> <?=$cloud?></br>
 		  <?php if($_ENV["HOSTNAME"]) {?><b>Container:</b> <?php echo $_ENV["HOSTNAME"]; ?><?php } ?></br></p>
 
 	    </div><!--close projects-->
@@ -75,7 +75,7 @@
         <div class="projects">
 	      <h3>As Featured in Time</h3>
 		  <p><img style="float: right; padding-left: 1em;"src="images/time.jpg" />
-		  Our CEO was featured in Time Magazine this month, read what he had to say in this thrilling insight in to the world of big-pie</p>
+		  Our CEO was featured in Time Magazine this month, read what he had to say in this thrilling insight in to the world of big-pie</br></p>
 		  <div class="more">
 		    <a  onclick="checkTimeOut()" href="time">Read more</a>
 		  </div><!--close more-->
