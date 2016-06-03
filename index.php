@@ -69,9 +69,9 @@
 		  <p><img style="float: center; padding-left: 1em;"src="images/CiscoCloud.png" />
           <?php
           if ($cloud == 'AWS') {
-              echo '<img src="images/aws.png" alt="Provisioned on AWS"/>';
+              echo '<img src="images/aws.png" />';
           } else {
-              echo '<img src="images/metapod.png alt="Provisioned on Metapod"/>';
+              echo '<img src="images/metapod.png" />';
           }
           ?>
           <?php if($_ENV["HOSTNAME"]) {?><b><?php echo $_ENV["HOSTNAME"]; ?></b>
