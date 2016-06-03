@@ -71,9 +71,9 @@
 
           <?php
           if ($cloud == 'AWS') {
-              echo '<img width="50" height="50" src="images/aws.png"/>';
+              echo '<img src="images/aws.png" alt="Provisioned on AWS"/>';
           } else {
-              echo '<img width="50" height="50" src="images/metapod.png"/>';
+              echo '<img src="images/metapod.png alt="Provisioned on Metapod"/>';
           }
 
 
