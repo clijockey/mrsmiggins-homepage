@@ -74,7 +74,8 @@
               echo '<img src="images/metapod.png alt="Provisioned on Metapod"/>';
           }
           ?>
-          <?php if($_ENV["HOSTNAME"]) {?><?php echo $_ENV["HOSTNAME"]; ?><?php } ?></p>
+          <?php if($_ENV["HOSTNAME"]) {?><b><?php echo $_ENV["HOSTNAME"]; ?></b>
+          <?php } ?></p>
 
 	    </div><!--close projects-->
 
@@ -83,7 +84,7 @@
 		  <p><img style="float: right; padding-left: 1em;"src="images/time.jpg" />
 		  Our CEO was featured in Time Magazine this month, read what he had to say in this thrilling insight in to the world of big-pie</br></p>
 		  <div class="more">
-		    <a  onclick="checkTimeOut()" href="time">Read more</a>
+		    <a  onclick="checkTimeOut()" href="#">Read more</a>
 		  </div><!--close more-->
 	    </div><!--close testimonials-->
 
