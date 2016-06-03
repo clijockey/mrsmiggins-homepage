@@ -69,11 +69,11 @@
 		  <p><img style="float: center; padding-left: 1em;"src="images/CiscoCloud.png" />
           <?php
           if ($cloud == 'AWS') {
-              echo '<img style="float: center; src="images/aws.png" />';
+              echo '<p><img style="float: center; src="images/aws.png" />';
           } elseif ($cloud == 'Metapod') {
-              echo '<img style="float: center; src="images/logo-openstack-integration.png" />';
+              echo '<p><img style="float: center; src="images/logo-openstack-integration.png" />';
           } else {
-              echo '<img style="float: center; src="images/cloud.png" />';
+              echo '<p><img style="float: center; src="images/cloud.png" />';
           }
           ?>
           <?php if($_ENV["HOSTNAME"]) {?><b><?php echo $_ENV["HOSTNAME"]; ?></b>
