@@ -67,21 +67,14 @@
         <div class="testimonials">
 	      <h3>Container Location</h3>
 		  <p><img style="float: center; padding-left: 1em;"src="images/CiscoCloud.png" />
-          </br></br><b>Cloud:</b>
-
           <?php
           if ($cloud == 'AWS') {
               echo '<img src="images/aws.png" alt="Provisioned on AWS"/>';
           } else {
               echo '<img src="images/metapod.png alt="Provisioned on Metapod"/>';
           }
-
-
-
-
-
           ?>
-          <?php if($_ENV["HOSTNAME"]) {?><b>Container:</b> <?php echo $_ENV["HOSTNAME"]; ?><?php } ?></p>
+          <?php if($_ENV["HOSTNAME"]) {?><?php echo $_ENV["HOSTNAME"]; ?><?php } ?></p>
 
 	    </div><!--close projects-->
 
