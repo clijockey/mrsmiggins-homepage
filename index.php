@@ -70,8 +70,10 @@
           <?php
           if ($cloud == 'AWS') {
               echo '<img src="images/aws.png" />';
+          } elseif ($cloud == 'Metapod') {
+              echo '<img src="images/logo-openstack-integration.png" />';
           } else {
-              echo '<img src="images/metapod.png" />';
+              echo '<img src="images/cloud.png" />';
           }
           ?>
           <?php if($_ENV["HOSTNAME"]) {?><b><?php echo $_ENV["HOSTNAME"]; ?></b>
