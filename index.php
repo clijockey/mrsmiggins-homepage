@@ -58,7 +58,7 @@
         <div class="ourwork">
 	      <h3>Phone App</h3>
 		  <p><img style="float: right; padding-left: 1em;"src="images/piealicious.png" />
-		  <p>It has finally arrived, we now have an app to speed up the ordering of pies.</p>
+		  <p>It has finally arrived, we now have an app for your phone to speed up the ordering of pies. Ordering pies will never be the same again!</p>
 		  <div class="more">
 		    <a onclick="checkTimeOut()" href="#">Launch</a>
 		  </div><!--close more-->
@@ -67,8 +67,8 @@
         <div class="testimonials">
 	      <h3>Container Location</h3>
 		  <p><img style="float: center; padding-left: 1em;"src="images/CiscoCloud.png" />
-          Cloud: <?=$cloud?>
-		  <?php if($_ENV["HOSTNAME"]) {?>Container: <?php echo $_ENV["HOSTNAME"]; ?><?php } ?></p>
+          <b>Cloud:</b> <?=$cloud?></br>
+		  <?php if($_ENV["HOSTNAME"]) {?><b>Container:</b> <?php echo $_ENV["HOSTNAME"]; ?><?php } ?></p>
 
 	    </div><!--close projects-->
 
