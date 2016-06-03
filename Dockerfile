@@ -2,7 +2,8 @@ FROM tutum/apache-php:latest
 MAINTAINER Rob Edwards
 
 ADD index.php /app/index.php
-ADD logo.png /app/logo.png
+ADD images/* /app/images/
+ADD css/style.css /app/css/style.css
 
 EXPOSE 80
 WORKDIR /app
