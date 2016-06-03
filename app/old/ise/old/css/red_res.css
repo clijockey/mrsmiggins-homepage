@@ -1,0 +1,35 @@
+/* CSS Document */
+
+/*
+ * Color specific styles
+ */
+ 
+ /* */
+div#body-inner {
+	background-image: url('../images/red/body-bottom-red.png');
+}
+
+div#stripe {
+	background-image: url('../images/red/stripe-red.png');
+}
+
+div#banner {
+	background: url('../images/red/banner-red_restricted.jpg') no-repeat;
+}
+
+div#content-wrapper{
+	border-color: #780007;
+}
+
+.hmenu li a,
+#banner-copy * { color: #780007; }
+.hmenu li.active { background-color: #780007; }
+
+#dialog-content {
+	font-size:1.5em;
+}
+ /* END */
+ 
+/*
+ * Color specific styles END
+ */

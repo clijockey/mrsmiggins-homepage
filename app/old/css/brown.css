@@ -1,0 +1,33 @@
+/* CSS Document */
+
+/*
+ * Color specific styles
+ */
+ 
+ /* */
+div#body-inner {
+	background-image: url('../images/brown/body-bottom-brown.png');
+}
+
+div#stripe {
+	background-image: url('../images/brown/stripe-brown.png');
+}
+
+div#banner {
+	background: url('../images/brown/banner-brown.jpg') no-repeat;
+}
+
+div#content-wrapper{
+	border-color: #784f00;
+}
+
+.hmenu li a,
+#banner-copy * { color: #402900; }
+.hmenu li.active { background-color: #784f00; }
+
+
+ /* END */
+ 
+/*
+ * Color specific styles END
+ */
