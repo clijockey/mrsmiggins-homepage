@@ -14,11 +14,9 @@
 
     <?php
         $cloud = 'AWS';
-        $icon = "<img src="images/aws.png" />"
 
         if (strpos($_ENV['HOST'], 'metapod')) {
                 $cloud = 'Metapod';
-                $icon = "<img src="images/metapod.png" />"
         }
     ?>
 </head>
@@ -69,8 +67,21 @@
         <div class="testimonials">
 	      <h3>Container Location</h3>
 		  <p><img style="float: center; padding-left: 1em;"src="images/CiscoCloud.png" />
-          </br></br><b>Cloud:</b> <?=$icon?></br>
-		  <?php if($_ENV["HOSTNAME"]) {?><b>Container:</b> <?php echo $_ENV["HOSTNAME"]; ?><?php } ?></p>
+          </br></br><b>Cloud:</b>
+
+          <?php
+          if ($cloud == 'AWS') {
+              echo '<img width="50" height="50" src="images/aws.png"/>';
+          } else {
+              echo '<img width="50" height="50" src="images/metapod.png"/>';
+          }
+
+
+
+
+
+          ?>
+          <?php if($_ENV["HOSTNAME"]) {?><b>Container:</b> <?php echo $_ENV["HOSTNAME"]; ?><?php } ?></p>
 
 	    </div><!--close projects-->
 
