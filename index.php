@@ -5,8 +5,8 @@
     $sec = "1";
     $cloud = 'AWS';
 
-    if (strpos($_ENV['HOST'], 'metapod')) {
-            $cloud = 'Metapod';
+    if (strpos($_ENV['HOST'], 'metacloud')) {
+            $cloud = 'Metacloud';
     }
 ?>
 
@@ -72,10 +72,10 @@
 	      <h3>Container Location</h3>
 		  <p><img style="float: center; padding-left: 1em;"src="images/CiscoCloud.png" />
           <?php
-          if ($cloud == 'AWS') {
-              echo '<img src="images/aws.png" />';
-          } elseif ($cloud == 'Metapod') {
+          if ($cloud == 'Metacloud') {
               echo '<img src="images/logo-openstack-integration.png" />';
+          } elseif ($cloud == 'AWS') {
+              echo '<img src="images/aws.png" />';
           } else {
               echo '<img src="images/cloud.png" />';
           }
